@@ -9,7 +9,8 @@ const {
 
 module.exports = (app) => {
     router.get('/', HomeController.index);
-    
+    router.get('/routes', HomeController.index);
+
     router.get('/owners', OwnersController.index);
     router.get('/owners/:id', OwnersController.show);
     router.post('/owners', OwnersController.create);

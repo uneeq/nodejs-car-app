@@ -4,7 +4,7 @@ module.exports = {
 		port: process.env.PORT || 3000
     },
     production: {
-        db: process.env.MONGODB_URI | 'please provide valid URI',
+        db: process.env.MONGODB_URI || 'please provide valid URI',
         port: process.env.PORT || 80
     }
 }
