@@ -1,1 +1,3 @@
 runtime: nodejs10
+env_variables:
+  MONGODB_URI: 'mongodb+srv://nikita-user:nikita-password@nodejs.nzsos.mongodb.net/test'
